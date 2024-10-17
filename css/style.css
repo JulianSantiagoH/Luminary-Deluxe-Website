@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    background-color: #000000;
+    font-family: "Poppins";
+}
+
+.text {
+    color: #ffffff;
+}
+
+/* Website-Menu */
+
+#menu {
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#image {
+    display: flex;
+    align-items: center;
+}
+
+#menu img {
+    margin-right: 20px;
+    display: block;
+}
+
+#menu h1 {
+    color: #ffffff;
+    font-size: 25px;
+    display: block;
+    margin: 0;
+}
+
+#menu nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+}
+
+
+#menu nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#menu nav ul li {
+    margin-right: 20px;
+}
+
+#menu nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+#menu nav ul li a:hover {
+    background-color: #5483AB;
+}
+
+/* Home's Styles */
+
+#home {
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+#video_home video {
+    width: 124%;
+    margin-left: -5%;
+}
+
+
+#title_home {
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    position: absolute;
+    margin-left: 7%;
+    padding: 240px 800px 600px 0;
+    transform: rotate(30deg);
+    border-top: 4px double #5483AB;
+    border-right: 4px double #426788;
+    filter: brightness(1.5); /* Aumenta el brillo */
+    transition: filter 0.3s; /* Transición suave */
+    z-index: 2;
+}
+
+#title_text {
+    display: flex;
+    position: relative;
+    text-align: center;
+    left: 300px;
+    bottom: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    z-index: 2;
+}
+
+#subtitle_text {
+    display: flex;
+    position: relative;
+    text-align: center;
+    left: -95px;
+    top: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    z-index: 2;
+
+}
+
+#overshadow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Color negro con opacidad 0.5 */
+   z-index: 1;
+
+}
